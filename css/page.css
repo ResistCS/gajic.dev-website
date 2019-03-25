@@ -45,7 +45,7 @@ header{
     text-align: right;
     display: inline-block;
     right: 5%;
-    bottom: 0px;
+    bottom: 0;
     position: absolute;
     color: #EDEDEE;
     font-size: larger;
@@ -108,7 +108,7 @@ main {
 }
 
 .aboutme {
-    height: 87vh;
+    height: 120vh;
     background: #F9F9F9;
     color: black;
     margin: 0;
@@ -120,7 +120,7 @@ main {
     height: 200px;
     border-radius: 50%;
     position: relative;
-    left: 45%;
+    left: 40%;
     vertical-align: bottom;
     display: inline-block;
 }
@@ -131,11 +131,58 @@ main {
     vertical-align: bottom;
     display: inline-block;
     position: relative;
-    right: 5%;
+    right: 10%;
 }
 
 .title-with-margin {
     margin-top: 3%;
+}
+
+.aboutme-skills > p {
+    text-decoration: underline;
+}
+
+.aboutme-skills > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact > p {
+    text-decoration: underline;
+}
+
+.contact > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    vertical-align: bottom;
+    display: inline-block;
+    position: relative;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(to bottom, var(--hoverColor) 0%, var(--hoverColor) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 1px 1px;
+    transition: background-size .2s;
+    bottom: 20px;
+}
+
+.contact-link:hover {
+    background-size: 4px 50px;
+    color: white;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 1px;
 }
 
 .holder {
@@ -147,7 +194,7 @@ main {
 }
 
 .projects {
-    height: 87vh;
+    height: 25vh;
     background: #F9F9F9;
     color: black;
     margin: 0;
@@ -156,7 +203,7 @@ main {
 }
 
 .blog {
-    height: 45vh;
+    height: 25vh;
     background: #F9F9F9;
     color: black;
     margin: 0;
