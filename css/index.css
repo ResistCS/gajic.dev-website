@@ -28,7 +28,7 @@ header{
     width: 100%;
     border-bottom: 1px black solid;
     background: #151515;
-    height: 13vh;
+    height: 125px;
     z-index: 99;
 }
 
@@ -73,13 +73,13 @@ main {
 
 .anchor {
     display: block;
-    height: 13vh;
-    margin-top: -13vh;
+    height: 125px;
+    margin-top: -125px;;
     visibility: hidden;
 }
 
 .start {
-    height: 87vh;
+    height: 1000px;
     width: 100%;
     background: url("../pictures/background.jpg") no-repeat  center;
     background-size: cover;
@@ -108,10 +108,11 @@ main {
 }
 
 .aboutme {
-    height: 120vh;
+    height: auto;
     background: #F9F9F9;
     color: black;
     margin: 0;
+    padding-bottom: 3%;
     border-bottom: 1px solid darkgrey;
 }
 
@@ -194,7 +195,7 @@ main {
 }
 
 .projects {
-    height: 25vh;
+    height: 250px;
     background: #F9F9F9;
     color: black;
     margin: 0;
@@ -203,7 +204,7 @@ main {
 }
 
 .blog {
-    height: 25vh;
+    height: 250px;
     background: #F9F9F9;
     color: black;
     margin: 0;
