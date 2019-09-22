@@ -121,18 +121,18 @@ main {
     height: 200px;
     border-radius: 50%;
     position: relative;
-    left: 40%;
+    text-align: center;
     vertical-align: bottom;
     display: inline-block;
+    margin: 20px;
 }
 
 .aboutme-desc {
     width: auto;
-    text-align: justify;
+    text-align: center;
     vertical-align: bottom;
     display: inline-block;
     position: relative;
-    right: 10%;
 }
 
 .title-with-margin {
